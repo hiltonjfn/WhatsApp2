@@ -72,7 +72,7 @@ function inicio(){
   
 }
 inicio()
-
+atualizar()
 function enviar_mensagem(){
   var mensagem = window.document.getElementById('tex').value;
   enviar(usuario,mensagem);
