@@ -70,7 +70,7 @@ function enviar(usuario,mensagem){
 function inicio(){
   usuario = prompt('Qual seu nome?');
   if(usuario == '' || usuario == undefined ){usuario = prompt('Qual seu nome?')};
-  atualizar();
+ 
 }
 inicio()
 atualizar()
