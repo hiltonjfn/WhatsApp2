@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+#m > p {
+  display: inline-block;
+  margin: 1px;
+}
