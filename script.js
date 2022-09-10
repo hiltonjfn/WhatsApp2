@@ -1,7 +1,7 @@
 //Modelo de fire base ***Realtime Database***
 var usuario = 'hilton';
 var mensagem = 'ola mundo';
-aweit atualizar();
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyC0T39y0jVVPyKx5Fkc4IWBEJ5vsVlnJIQ",
@@ -70,7 +70,7 @@ function enviar(usuario,mensagem){
 function inicio(){
   usuario = prompt('Qual seu nome?');
   if(usuario == '' || usuario == undefined ){usuario = prompt('Qual seu nome?')};
-  
+  atualizar();
 }
 inicio()
 atualizar()
